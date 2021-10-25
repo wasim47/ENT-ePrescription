@@ -1,0 +1,99 @@
+<script type="text/javascript" src="<?php echo base_url('asset/js/jquery.min.js');?>"></script>
+<script type="text/JavaScript">
+function openPage1(pid,tablename,colid)
+{
+	var b = window.confirm('Are you sure, you want to Delete This ?');
+	if(b==true){
+		$.ajax({
+			   type: "GET",
+			   url: '<?php echo base_url()?>index/deleteData/'+tablename+'/'+colid,
+			   data: "deleteId="+pid,
+			   success: function() {
+				  alert("Successfully saved");
+				  window.location.reload(true);
+				},
+				error: function() {
+				  alert("There was an error. Try again please!");
+				}
+		 });
+	}
+	else{
+	 return;
+	}
+	 
+}
+
+
+</script>
+<div class="right_col" role="main">
+<div class="">
+
+                    <div class="page-title">
+                            
+                            
+                            
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+
+
+
+
+    
+
+
+
+
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_content">
+                                 <?php echo $this->session->flashdata('successMsg');?>
+                                <div class="container">
+                                  <table class="table table-striped" width="100%">
+                                    <thead>
+                                      <tr>
+                                        <th width="2%">SI</th>
+                                        <th width="25%">Doctor Name</th>
+                                        <th width="12%">Mobile</th>
+                                        <th width="16%">Action</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                <?php
+									$i=0;
+                                    foreach($admission_department_list->result() as $doctorinfo):
+									$doc_id=$doctorinfo->doc_id;
+									$doc_name=$doctorinfo->doc_name;
+									$mobile=$doctorinfo->mobile;
+									$i++;
+								?>
+                                      <tr>
+                                        <td><?php echo $i;?></td>
+                                        <td><?php echo ucfirst($doc_name); ?></td>
+                                        <td><?php echo $mobile; ?></td>
+                                       <?php /*?> <td><?php echo $department; ?></td>
+                                        <td><?php echo $specialty; ?></td>
+                                        <td><?php echo $designation; ?></td>
+                                        <td><?php echo $bmdc; ?></td><?php */?>
+                                         <td> 
+                                         <a href="<?php echo base_url('index/admission_department_registration/'.$doc_id);?>" class="btn btn-default btn-sm">
+          									<span class="glyphicon glyphicon-edit"></span> Edit</a> 
+                                            
+                                           <a href="javascript:void();" onclick="openPage1('<?php echo $doc_id;?>','registration','id');" 
+                                           class="btn btn-default btn-sm"><span class="glyphicon glyphicon-remove-circle"></span> Remove </a>
+                                            </td>
+                                      </tr>
+                                    <?php
+                                    endforeach;
+									?>  
+                                     
+                                    </tbody>
+                                  </table>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>

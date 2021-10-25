@@ -1,0 +1,29 @@
+[13-Aug-2016 15:46:16 Asia/Dhaka] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/docsoft/public_html/demo/ent/application/views/frontend/department_page/dental.php on line 369
+[13-Aug-2016 15:46:21 Asia/Dhaka] PHP Fatal error:  Call to undefined method Index::dental() in /home/docsoft/public_html/demo/ent/application/controllers/Index.php on line 734
+[13-Aug-2016 15:55:22 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[13-Aug-2016 16:07:04 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[13-Aug-2016 16:20:37 Asia/Dhaka] PHP Fatal error:  Call to undefined method Index::() in /home/docsoft/public_html/demo/ent/application/controllers/Index.php on line 734
+[13-Aug-2016 16:36:16 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[13-Aug-2016 16:36:19 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[22-Aug-2016 12:16:34 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[22-Aug-2016 12:17:05 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[22-Aug-2016 12:22:26 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[22-Aug-2016 12:22:43 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[22-Aug-2016 12:23:44 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[22-Aug-2016 12:26:04 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[22-Aug-2016 13:16:28 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:02:11 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:02:20 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:02:32 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:02:47 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:03:06 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:03:37 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:12:01 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:12:03 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:12:03 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:12:04 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:12:12 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:19:25 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[28-Aug-2016 14:19:40 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent/application/views/frontend/prescription/prescription_sql.php on line 198
+[27-Nov-2016 16:06:58 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent_admission/application/views/frontend/prescription/prescription_sql.php on line 213
+[27-Nov-2016 16:12:31 Asia/Dhaka] PHP Fatal error:  Using $this when not in object context in /home/docsoft/public_html/demo/ent_admission/application/views/frontend/prescription/prescription_sql.php on line 213
